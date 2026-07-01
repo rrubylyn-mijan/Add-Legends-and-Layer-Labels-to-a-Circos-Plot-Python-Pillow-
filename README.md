@@ -50,14 +50,14 @@ import os
 # -----------------------------
 # Input files
 # -----------------------------
-circos_path = "/90daydata/oat_renewal/Ruby/circos_plot_wheat/2circos-wheat.png"
-legend_path = "/90daydata/oat_renewal/Ruby/circos_plot_wheat/circos_legend.tiff"
+circos_path = "/directory/this/saved/circos_plot_wheat/2circos-wheat.png"
+legend_path = "/directory/this/saved/circos_plot_wheat/circos_legend.tiff"
 
 
 # Output files
-output_png = "/90daydata/oat_renewal/Ruby/circos_plot_wheat/2circos-wheat_with_legend_labels.png"
-output_tiff = "/90daydata/oat_renewal/Ruby/circos_plot_wheat/2circos-wheat_with_legend_labels_600dpi.tiff"
-output_pdf = "/90daydata/oat_renewal/Ruby/circos_plot_wheat/2circos-wheat_with_legend_labels.pdf"
+output_png = "/directory/this/saved/circos_plot_wheat/2circos-wheat_with_legend_labels.png"
+output_tiff = "/directory/this/saved/circos_plot_wheat/2circos-wheat_with_legend_labels_600dpi.tiff"
+output_pdf = "/directory/this/saved/circos_plot_wheat/2circos-wheat_with_legend_labels.pdf"
 
 
 # -----------------------------
