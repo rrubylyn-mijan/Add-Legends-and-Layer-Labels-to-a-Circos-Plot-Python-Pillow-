@@ -17,7 +17,6 @@ pip install matplotlib numpy
 
 ## Python script
 ```bash
-# Create a script
 nano x-generate-legend-wheat.py
 
 import matplotlib.pyplot as plt
@@ -117,11 +116,10 @@ circos_legend.tiff
     - PDF
 ```
 
-## Run python
+## Run python script
 ```bash
 ml python/3.13.8
 
-# Create a script
 nano 5x_circos_legend_combined.py
 
 from PIL import Image, ImageDraw, ImageFont
