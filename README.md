@@ -79,7 +79,7 @@ TIFF: 600 dpi, suitable for journal publication
 SVG: Vector format for editing in graphics software such as Adobe Illustrator or Inkscape
 ```
 
-# Combined circos figure and color legend
+# Combined circos figure and color legend (6000pixels)
 ## Requirements
 ```bash
 - Python ≥ 3.13
@@ -129,13 +129,13 @@ import os
 # -----------------------------
 # Input files
 # -----------------------------
-circos_path = "/directory/this/saved/circos_plot_wheat/2circos-wheat.png"
+circos_path = "/directory/this/saved/circos_plot_wheat/60circos-wheat.png"
 legend_path = "/directory/this/saved/circos_plot_wheat/circos_legend.tiff"
 
 # Output files
-output_png = "/directory/this/saved/circos_plot_wheat/2circos-wheat_with_legend_labels.png"
-output_tiff = "/directory/this/saved/circos_plot_wheat/2circos-wheat_with_legend_labels_600dpi.tiff"
-output_pdf = "/directory/this/saved/circos_plot_wheat/2circos-wheat_with_legend_labels.pdf"
+output_png = "/directory/this/saved/circos_plot_wheat/60circos-wheat_with_legend_labels.png"
+output_tiff = "/directory/this/saved/circos_plot_wheat/60circos-wheat_with_legend_labels_600dpi.tiff"
+output_pdf = "/directory/this/saved/circos_plot_wheat/60circos-wheat_with_legend_labels.pdf"
 
 
 # -----------------------------
@@ -143,7 +143,7 @@ output_pdf = "/directory/this/saved/circos_plot_wheat/2circos-wheat_with_legend_
 # -----------------------------
 legend_scale_factor = 0.28
 legend_right_margin = 50
-extra_bottom_space = 300
+extra_bottom_space = 900 #300 for 2k pixels then multiply by 1.5 for 3k px then 2 for 4k px and so on
 legend_gap_below_circle = 0
 
 
@@ -172,7 +172,7 @@ label_y_fractions = [
 ]
 
 
-label_size = 60
+label_size = 180 #60 for 2k pixels then multiply by 1.5 for 3k px then 2 for 4k px and so on
 
 
 # -----------------------------
